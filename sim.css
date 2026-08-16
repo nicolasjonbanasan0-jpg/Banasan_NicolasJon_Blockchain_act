@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 100%;
+    margin:0 auto;
+    padding: 50px 20px;
+}
+
+.subtitle {
+    color: beige;
+    margin-top:15px;
+}
+
+.controls {
+    display:flex;
+    gap:15px;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.input {
+    flex: 1;
+    min-width: 50%;
+    padding: 12px;
+    border: 1px solid beige;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+
+button {
+    padding: 12px;
+    border: 0;
+    border-radius: 15px;
+    background: gray;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background:white;
+    color:black;
+}
+
+.chain {
+    display: grid;
+    gap: 12px;
+}
+
+.status {
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
